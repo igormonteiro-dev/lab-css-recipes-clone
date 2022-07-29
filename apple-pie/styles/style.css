@@ -1,0 +1,85 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 200px 30px 200px;
+}
+
+h1 {
+  font-size: 6rem;
+  color: #fff;
+  text-align: left;
+}
+
+h2 {
+  color: black;
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+p {
+  font-size: 1.3rem;
+  text-align: left;
+}
+
+ul li,
+ol li {
+  list-style-type: none;
+}
+
+.hero__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.ingredients__row {
+  border-bottom: 2px solid grey;
+  text-align: center;
+}
+
+.ingredients__row ul {
+  font-size: 18px;
+  text-align: left;
+}
+
+.ingredients {
+  color: grey;
+  align-items: center;
+  color: grey;
+  border-bottom: 2px solid grey;
+}
+
+.description__row {
+  color: grey;
+  align-items: center;
+  color: grey;
+  border-bottom: 2px solid grey;
+}
+
+.description__row ul {
+  text-align: left;
+}
+
+.icons {
+  width: 600px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
